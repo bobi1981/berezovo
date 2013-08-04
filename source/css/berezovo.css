@@ -1,0 +1,788 @@
+ /*********************** GOLOVA!!! **************************/
+
+html {
+}
+
+body {
+margin:0;
+padding:0;
+font-family: tahoma,arial;
+font-size:14pt;
+background: url(../img/fon3.png);
+background-repeat: repeat-y;
+background-position:center;
+background-size: 100%;
+
+}
+
+
+.container {
+
+}
+
+
+
+
+ /*********************** NAVIGATION **************************/
+
+
+
+.navigator {
+ margin-left:497px;
+ margin-top:10px;
+ \border:1px solid #000;
+ 
+}
+
+
+.navigator ul  {
+list-style:none;
+margin-top:3px;
+margin-left:15px;
+
+}
+
+.navigator ul li {
+display:inline;
+padding-bottom:10px;
+padding-top:5px;
+}
+
+
+.navigator ul li a {
+border:0px solid #7C7968;
+\border-radius:4px;
+
+padding-top:1px;
+padding:3px;
+height:30px;
+width:100px;
+text-decoration:none;
+color:#fff;
+background: #6B7195;
+transition-property:all;
+-o-transition: background .2s ease-in-out;
+-webkit-transition: background .2s ease-in-out;
+-moz-transition: background .2s ease-in-out;
+transition: background .2s ease-in-out;
+} 
+
+
+.navigator ul li a:hover {
+background:#fff;
+color:#000;
+}
+
+.navigator ul li a.selected {
+background:#fff;
+color:#000;
+}
+
+
+ /*********************** CENTER CONTENT **************************/
+
+
+
+.centercontent {
+width: 940px;
+height:576px;
+\border: 1px solid #000;
+position:relative;
+}
+
+.zaglushka {
+position:absolute;
+z-index:1;
+}
+
+.bashnia {
+position:absolute;
+left:18px;
+top:-30px;
+z-index: -1;
+}
+
+.mapimage {
+position:absolute;
+top:116px;
+left:204px;
+}
+
+
+.point {
+border:px solid #000;
+position:absolute;
+left:331px;
+top:235px;
+}
+
+
+.textpage1 {
+height:140px;
+width:600px;
+border: px solid #000;
+position:absolute;
+left:350px;
+top:20px;
+font-size:11pt;
+\font-weight:bold;
+text-align:left;
+}
+
+.lenta{
+position: absolute;
+top:
+bottom:400px;
+left:
+right:
+border:1px solid #000;
+}
+
+
+
+/*********************** LINE **************************/
+
+
+
+.linebottom {
+height: 2px;
+width:940px;
+border: px solid #000;
+background-color:#000;
+}
+
+.linebottom2 {
+height: 1px;
+width:940px;
+border: px solid #000;
+background-color:#000;
+margin-top: 3px;
+}
+
+
+/*********************** FOOTER **************************/
+
+.footer {
+\border:1px solid #000;
+height: 100%;
+width: 940px;
+position: relative;
+
+}
+
+.adminlogo {
+\border: 1px solid #000;
+height: 73px;
+width: 60px;
+background-position: 10px 10px;
+margin-top:10px;
+position:absolute;
+}
+
+.admintextlogo {
+height: 40px;
+width: 400px;
+font-size:9pt;
+margin-top:15px;
+margin-left:60px;
+position:absolute;
+font-weight:bold;
+text-align:left;
+}
+
+.lenta {
+margin-left:861px;
+position:absolute;
+}
+/*********************** LINE DOWN **************************/
+.linebottom81 {
+margin-top:74px;
+height: 1px;
+width:940px;
+border: px solid #000;
+background-color:#000;
+}
+
+.linebottom81_2{
+margin-top: 3px;
+height: 2px;
+width:940px;
+border: px solid #000;
+background-color:#000;
+}
+
+/*********************** PAGES HISTORY **************************/
+
+
+.flow-content {
+overflow:auto;
+width: 940px;
+height:576px;
+font-family: tahoma,arial;
+font-size:12pt;
+text-align:left;
+padding-right:10px;
+}
+
+h4{
+
+background-color:#B5B5B5;
+margin:0;
+padding:0;
+}
+
+/*********************** IMGLAGER STYLE {PAGES HISTORY}**************************/
+
+.ienlarger {
+	float: left;
+	clear: none; /* Набор или слева или справа */
+	padding-bottom: 5px; /* Расстояние между превьюшками. Не иэменяйте его. */
+	padding-right: 15px; /* расстояние между превьюшками и текстом, который идёт вокруг картинки */
+}
+
+.ienlarger a { 
+	display:block;
+	text-decoration: none;
+/* add cursor:default; to this rule to disable the hand cursor */
+}
+
+.ienlarger a:hover{ /* Не изменяйте это позиционирование */
+ 	position:relative;
+}
+
+.ienlarger span img {
+	border: 1px solid #FFFFFF; /* Добавляем рамку вокруг Большого изображения */
+	margin-bottom: 8px; /* Добавляем пространство снизу большого изображения для комментария */
+}
+
+.ienlarger a span {  /* Стили для Большого изображения */
+	position: absolute;
+	display:none;
+	color: #000033; /* Цвет комментария */
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px; /* Размер шрифта */
+	background-color:#fff ;/* Цвет бекграунда у Большой картинки */
+	font-weight: bold;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 13px;
+	padding-left: 10px;
+}
+
+.ienlarger img { /* Отменяем рамку для IE */
+border-width: 0;
+}
+
+.ienlarger a:hover span { 
+	display:block;
+	top: 0px; /* Расстояние от верха, на котором появится большое изображение от превьюшки  */
+	left: 90px; /* Расстояние слева от превьюшки, на котором появится Большое изображение */
+	z-index: 100;
+	
+/* If you want the pop-up open to the left of thumb, remove the left: 90px; and add  
+right: 90px; This would mean the right side of the pop-up is 90px far from the right side of thumb */	
+
+/* If you want the pop-up open above the thumb, remove the top: 50px; and add  
+bottom: 50px; This would mean the bottom of the pop-up is 50px far from the bottom of thumb */	
+
+/* add cursor:default; to this rule to disable the hand cursor only for the large image */
+}
+
+.resize_thumb {
+	width: 200px; /* Задаём ширину превьюшки */
+	height : auto;
+}
+
+/*********************************************ienlarger3****************************************************************/
+
+.ienlarger3 {
+	float: right;
+	clear: none; /* Набор или слева или справа */
+	padding-bottom: 5px; /* Расстояние между превьюшками. Не иэменяйте его. */
+	padding-left: 15px; /* расстояние между превьюшками и текстом, который идёт вокруг картинки */
+
+}
+
+.ienlarger3 a { 
+	display:block;
+	text-decoration: none;
+/* add cursor:default; to this rule to disable the hand cursor */
+}
+
+.ienlarger3 a:hover{ /* Не изменяйте это позиционирование */
+ 	position:relative;
+}
+
+.ienlarger3 span img {
+	border: 1px solid #FFFFFF; /* Добавляем рамку вокруг Большого изображения */
+	margin-bottom: 8px; /* Добавляем пространство снизу большого изображения для комментария */
+}
+
+.ienlarger3 a span {  /* Стили для Большого изображения */
+	position: absolute;
+	display:none;
+	color: #000033; /* Цвет комментария */
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px; /* Размер шрифта */
+	background-color:#fff ;/* Цвет бекграунда у Большой картинки */
+	font-weight: bold;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 13px;
+	padding-left: 10px;
+}
+
+.ienlarger3 img { /* Отменяем рамку для IE */
+border-width: 0;
+}
+
+.ienlarger3 a:hover span { 
+	display:block;
+	top: 0px; /* Расстояние от верха, на котором появится большое изображение от превьюшки  */
+	right: 90px; /* Расстояние слева от превьюшки, на котором появится Большое изображение */
+	z-index: 100;
+	
+/* If you want the pop-up open to the left of thumb, remove the left: 90px; and add  
+right: 90px; This would mean the right side of the pop-up is 90px far from the right side of thumb */	
+
+/* If you want the pop-up open above the thumb, remove the top: 50px; and add  
+bottom: 50px; This would mean the bottom of the pop-up is 50px far from the bottom of thumb */	
+
+/* add cursor:default; to this rule to disable the hand cursor only for the large image */
+}
+
+.resize_thumb3 {
+	width: 250px; /* Задаём ширину превьюшки */
+	height : auto;
+}
+
+/*************************************************ienlarger2*************************************************************/
+.ienlarger2 {
+	float: right;
+	clear: none; /* Набор или слева или справа */
+	padding-bottom: 5px; /* Расстояние между превьюшками. Не иэменяйте его. */
+	padding-left: 15px; /* расстояние между превьюшками и текстом, который идёт вокруг картинки */
+
+}
+
+.ienlarger2 a { 
+	display:block;
+	text-decoration: none;
+/* add cursor:default; to this rule to disable the hand cursor */
+}
+
+.ienlarger2 a:hover{ /* Не изменяйте это позиционирование */
+ 	position:relative;
+}
+
+.ienlarger2 span img {
+	border: 1px solid #FFFFFF; /* Добавляем рамку вокруг Большого изображения */
+	margin-bottom: 8px; /* Добавляем пространство снизу большого изображения для комментария */
+}
+
+.ienlarger2 a span {  /* Стили для Большого изображения */
+	position: absolute;
+	display:none;
+	color: #000033; /* Цвет комментария */
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px; /* Размер шрифта */
+	background-color:#fff ;/* Цвет бекграунда у Большой картинки */
+	font-weight: bold;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 13px;
+	padding-left: 10px;
+}
+
+.ienlarger2 img { /* Отменяем рамку для IE */
+border-width: 0;
+}
+
+.ienlarger2 a:hover span { 
+	display:block;
+	top: 0px; /* Расстояние от верха, на котором появится большое изображение от превьюшки  */
+	right: 90px; /* Расстояние слева от превьюшки, на котором появится Большое изображение */
+	z-index: 100;
+	
+/* If you want the pop-up open to the left of thumb, remove the left: 90px; and add  
+right: 90px; This would mean the right side of the pop-up is 90px far from the right side of thumb */	
+
+/* If you want the pop-up open above the thumb, remove the top: 50px; and add  
+bottom: 50px; This would mean the bottom of the pop-up is 50px far from the bottom of thumb */	
+
+/* add cursor:default; to this rule to disable the hand cursor only for the large image */
+}
+
+.resize_thumb2 {
+	width: 200px; /* Задаём ширину превьюшки */
+	height : auto;
+}
+
+/*************************************************ienlarger4**************************************************************/
+.ienlarger4 {
+	float: left;
+	clear: none; /* Набор или слева или справа */
+	padding-bottom: 5px; /* Расстояние между превьюшками. Не иэменяйте его. */
+	padding-right: 15px; /* расстояние между превьюшками и текстом, который идёт вокруг картинки */
+
+}
+
+.ienlarger4 a { 
+	display:block;
+	text-decoration: none;
+/* add cursor:default; to this rule to disable the hand cursor */
+}
+
+.ienlarger4 a:hover{ /* Не изменяйте это позиционирование */
+ 	position:relative;
+}
+
+.ienlarger4 span img {
+	border: 1px solid #FFFFFF; /* Добавляем рамку вокруг Большого изображения */
+	margin-bottom: 8px; /* Добавляем пространство снизу большого изображения для комментария */
+}
+
+.ienlarger4 a span {  /* Стили для Большого изображения */
+	position: absolute;
+	display:none;
+	color: #000033; /* Цвет комментария */
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px; /* Размер шрифта */
+	background-color:#fff ;/* Цвет бекграунда у Большой картинки */
+	font-weight: bold;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 13px;
+	padding-left: 10px;
+}
+
+.ienlarger4 img { /* Отменяем рамку для IE */
+border-width: 0;
+}
+
+.ienlarger4 a:hover span { 
+	display:block;
+	top: 0px; /* Расстояние от верха, на котором появится большое изображение от превьюшки  */
+	left: 90px; /* Расстояние слева от превьюшки, на котором появится Большое изображение */
+	z-index: 100;
+	
+/* If you want the pop-up open to the left of thumb, remove the left: 90px; and add  
+right: 90px; This would mean the right side of the pop-up is 90px far from the right side of thumb */	
+
+/* If you want the pop-up open above the thumb, remove the top: 50px; and add  
+bottom: 50px; This would mean the bottom of the pop-up is 50px far from the bottom of thumb */	
+
+/* add cursor:default; to this rule to disable the hand cursor only for the large image */
+}
+
+.resize_thumb4 {
+	width: 250px; /* Задаём ширину превьюшки */
+	height : auto;
+}
+
+/*************************************************ienlarger5**************************************************************/
+
+.ienlarger5 {
+	float: right;
+	clear: none; /* Набор или слева или справа */
+	padding-bottom: 5px; /* Расстояние между превьюшками. Не иэменяйте его. */
+	padding-left: 15px; /* расстояние между превьюшками и текстом, который идёт вокруг картинки */
+
+}
+
+.ienlarger5 a { 
+	display:block;
+	text-decoration: none;
+/* add cursor:default; to this rule to disable the hand cursor */
+}
+
+.ienlarger5 a:hover{ /* Не изменяйте это позиционирование */
+ 	position:relative;
+}
+
+.ienlarger5 span img {
+	border: 1px solid #FFFFFF; /* Добавляем рамку вокруг Большого изображения */
+	margin-bottom: 8px; /* Добавляем пространство снизу большого изображения для комментария */
+}
+
+.ienlarger5 a span {  /* Стили для Большого изображения */
+	position: absolute;
+	display:none;
+	color: #000033; /* Цвет комментария */
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px; /* Размер шрифта */
+	background-color:#fff ;/* Цвет бекграунда у Большой картинки */
+	font-weight: bold;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 13px;
+	padding-left: 10px;
+}
+
+.ienlarger5 img { /* Отменяем рамку для IE */
+border-width: 0;
+}
+
+.ienlarger5 a:hover span { 
+	display:block;
+	top: 0px; /* Расстояние от верха, на котором появится большое изображение от превьюшки  */
+	right: 90px; /* Расстояние слева от превьюшки, на котором появится Большое изображение */
+	z-index: 100;
+	
+/* If you want the pop-up open to the left of thumb, remove the left: 90px; and add  
+right: 90px; This would mean the right side of the pop-up is 90px far from the right side of thumb */	
+
+/* If you want the pop-up open above the thumb, remove the top: 50px; and add  
+bottom: 50px; This would mean the bottom of the pop-up is 50px far from the bottom of thumb */	
+
+/* add cursor:default; to this rule to disable the hand cursor only for the large image */
+}
+
+.resize_thumb5 {
+	width: 250px; /* Задаём ширину превьюшки */
+	height : auto;
+}
+
+/*************************************************ienlarger6**************************************************************/
+
+
+.ienlarger6 {
+	float: left;
+	clear: none; /* Набор или слева или справа */
+	padding-bottom: 5px; /* Расстояние между превьюшками. Не иэменяйте его. */
+	padding-right: 15px; /* расстояние между превьюшками и текстом, который идёт вокруг картинки */
+
+}
+
+.ienlarger6 a { 
+	display:block;
+	text-decoration: none;
+/* add cursor:default; to this rule to disable the hand cursor */
+}
+
+.ienlarger6 a:hover{ /* Не изменяйте это позиционирование */
+ 	position:relative;
+}
+
+.ienlarger6 span img {
+	border: 1px solid #FFFFFF; /* Добавляем рамку вокруг Большого изображения */
+	margin-bottom: 8px; /* Добавляем пространство снизу большого изображения для комментария */
+}
+
+.ienlarger6 a span {  /* Стили для Большого изображения */
+	position: absolute;
+	display:none;
+	color: #000033; /* Цвет комментария */
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px; /* Размер шрифта */
+	background-color:#fff ;/* Цвет бекграунда у Большой картинки */
+	font-weight: bold;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 13px;
+	padding-left: 10px;
+}
+
+.ienlarger6 img { /* Отменяем рамку для IE */
+border-width: 0;
+}
+
+.ienlarger6 a:hover span { 
+	display:block;
+	top: 0px; /* Расстояние от верха, на котором появится большое изображение от превьюшки  */
+	left: 90px; /* Расстояние слева от превьюшки, на котором появится Большое изображение */
+	z-index: 100;
+	
+/* If you want the pop-up open to the left of thumb, remove the left: 90px; and add  
+right: 90px; This would mean the right side of the pop-up is 90px far from the right side of thumb */	
+
+/* If you want the pop-up open above the thumb, remove the top: 50px; and add  
+bottom: 50px; This would mean the bottom of the pop-up is 50px far from the bottom of thumb */	
+
+/* add cursor:default; to this rule to disable the hand cursor only for the large image */
+}
+
+.resize_thumb6 {
+	width: 250px; /* Задаём ширину превьюшки */
+	height : auto;
+}
+
+
+/*************************************************ienlarger7**************************************************************/
+.ienlarger7 {
+	float: right;
+	clear: none; /* Набор или слева или справа */
+	padding-bottom: 5px; /* Расстояние между превьюшками. Не иэменяйте его. */
+	padding-left: 15px; /* расстояние между превьюшками и текстом, который идёт вокруг картинки */
+
+}
+
+.ienlarger7 a { 
+	display:block;
+	text-decoration: none;
+/* add cursor:default; to this rule to disable the hand cursor */
+}
+
+.ienlarger7 a:hover{ /* Не изменяйте это позиционирование */
+ 	position:relative;
+}
+
+.ienlarger7 span img {
+	border: 1px solid #FFFFFF; /* Добавляем рамку вокруг Большого изображения */
+	margin-bottom: 8px; /* Добавляем пространство снизу большого изображения для комментария */
+}
+
+.ienlarger7 a span {  /* Стили для Большого изображения */
+	position: absolute;
+	display:none;
+	color: #000033; /* Цвет комментария */
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px; /* Размер шрифта */
+	background-color:#fff ;/* Цвет бекграунда у Большой картинки */
+	font-weight: bold;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 13px;
+	padding-left: 10px;
+}
+
+.ienlarger7 img { /* Отменяем рамку для IE */
+border-width: 0;
+}
+
+.ienlarger7 a:hover span { 
+	display:block;
+	top: 0px; /* Расстояние от верха, на котором появится большое изображение от превьюшки  */
+	right: 90px; /* Расстояние слева от превьюшки, на котором появится Большое изображение */
+	z-index: 100;
+	
+/* If you want the pop-up open to the left of thumb, remove the left: 90px; and add  
+right: 90px; This would mean the right side of the pop-up is 90px far from the right side of thumb */	
+
+/* If you want the pop-up open above the thumb, remove the top: 50px; and add  
+bottom: 50px; This would mean the bottom of the pop-up is 50px far from the bottom of thumb */	
+
+/* add cursor:default; to this rule to disable the hand cursor only for the large image */
+}
+
+.resize_thumb7 {
+	width: 150px; /* Задаём ширину превьюшки */
+	height : auto;
+}
+
+
+/*************************************************ienlarger8**************************************************************/
+
+.ienlarger8 {
+	float: left;
+	clear: none; /* Набор или слева или справа */
+	padding-bottom: 5px; /* Расстояние между превьюшками. Не иэменяйте его. */
+	padding-right: 15px; /* расстояние между превьюшками и текстом, который идёт вокруг картинки */
+
+}
+
+.ienlarger8 a { 
+	display:block;
+	text-decoration: none;
+/* add cursor:default; to this rule to disable the hand cursor */
+}
+
+.ienlarger8 a:hover{ /* Не изменяйте это позиционирование */
+ 	position:relative;
+}
+
+.ienlarger8 span img {
+	border: 1px solid #FFFFFF; /* Добавляем рамку вокруг Большого изображения */
+	margin-bottom: 8px; /* Добавляем пространство снизу большого изображения для комментария */
+}
+
+.ienlarger8 a span {  /* Стили для Большого изображения */
+	position: absolute;
+	display:none;
+	color: #000033; /* Цвет комментария */
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px; /* Размер шрифта */
+	background-color:#fff ;/* Цвет бекграунда у Большой картинки */
+	font-weight: bold;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 13px;
+	padding-left: 10px;
+}
+
+.ienlarger8 img { /* Отменяем рамку для IE */
+border-width: 0;
+}
+
+.ienlarger8 a:hover span { 
+	display:block;
+	top: 0px; /* Расстояние от верха, на котором появится большое изображение от превьюшки  */
+	left: 90px; /* Расстояние слева от превьюшки, на котором появится Большое изображение */
+	z-index: 100;
+	
+/* If you want the pop-up open to the left of thumb, remove the left: 90px; and add  
+right: 90px; This would mean the right side of the pop-up is 90px far from the right side of thumb */	
+
+/* If you want the pop-up open above the thumb, remove the top: 50px; and add  
+bottom: 50px; This would mean the bottom of the pop-up is 50px far from the bottom of thumb */	
+
+/* add cursor:default; to this rule to disable the hand cursor only for the large image */
+}
+
+.resize_thumb8 {
+	width: 250px; /* Задаём ширину превьюшки */
+	height : auto;
+}
+
+/*********************** IMGLAGER STYLE END  **************************/
+
+
+/*********************** PAGES PEOPLE **************************/
+
+
+.fotogallery {
+
+}
+
+
+/*********************** PAGES UBILEI **************************/
+
+/*********************** POMETKI **************************/
+
+a {
+outline: none;                  /*  граница вокруг ссылок для Осла  */
+}
+
+/*********************** END!!! **************************/
+
+
+#peoples{
+	width:940px;
+	height:576px;
+}
+#peoples .turn-page{
+	background-color:#ccc;
+	background-size:100% 100%;
+}
+
+.container {
+	text-align: center;
+}
+
+.centercontent,
+.linebottom2,
+.linebottom,
+.footer,
+.linebottom81,
+.linebottom81_2 {
+    margin-left: auto;
+    margin-right: auto;
+}
