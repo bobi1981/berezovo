@@ -786,3 +786,13 @@ outline: none;                  /*  граница вокруг ссылок д�
     margin-left: auto;
     margin-right: auto;
 }
+
+.social-like-buttons {
+    margin-left: auto;
+    margin-right: auto;	
+    margin-top: 20px	
+}
+
+.social-like-buttons TD {
+	width: 200px;
+}
